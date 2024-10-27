@@ -52,7 +52,7 @@ $('.navbar').on('click', function () {
 function searchMovie() {
   $('#movie-list').html('');
   $.ajax({
-    url: 'http://www.omdbapi.com',
+    url: 'https://www.omdbapi.com',
     type: 'get',
     dataType: 'json',
     data: {
@@ -105,7 +105,7 @@ $('#search-input').on('keyup', function (e) {
 
 $('#movie-list').on('click', '.see-detail', function () {
   $.ajax({
-    url: 'http://www.omdbapi.com',
+    url: 'https://www.omdbapi.com',
     type: 'get',
     dataType: 'json',
     data: {
