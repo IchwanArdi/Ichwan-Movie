@@ -2,7 +2,7 @@
 function searchMovieUtama() {
   $('#movie-list').html('');
   $.ajax({
-    url: 'http://www.omdbapi.com',
+    url: 'https://www.omdbapi.com',
     type: 'get',
     dataType: 'json',
     data: {
