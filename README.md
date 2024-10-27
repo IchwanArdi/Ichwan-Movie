@@ -16,7 +16,3 @@
 - **JavaScript**: Menangani interaksi pengguna dan memproses data dari API.
 - **OMDb API**: Sumber data untuk informasi film.
 
-## Instalasi dan Penggunaan 🚀
-1. Clone repositori ini:
-   ```bash
-   git clone https://github.com/username/Ichwan-Movie.git
