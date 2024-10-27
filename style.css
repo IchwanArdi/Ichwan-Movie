@@ -1,0 +1,68 @@
+.darkmode {
+  --base-color: #070b1d;
+  --base-variant: #101425;
+  --text-color: #ffffff;
+  --secondary-text: #a4a5b8;
+  --primary-color: #3a435d;
+  --accent-color: #0071ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Poppins;
+}
+body {
+  background-color: var(--base-color);
+  color: var(--text-color);
+}
+
+#search-button {
+  color: var(--text-color);
+}
+
+#search-button:hover {
+  background-color: var(--primary-color);
+}
+
+/* Make sure the parent div hides overflow */
+.img-hover {
+  overflow: hidden;
+}
+
+.img-hover img {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Apply zoom-in effect on image hover */
+.img-hover img:hover {
+  transform: scale(1.1);
+}
+
+.btn-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-to-top a {
+  text-decoration: none;
+}
+
+@media (max-width: 740px) {
+  .btn-to-top {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 23px;
+  }
+}
